@@ -9,7 +9,7 @@ konachan wallpaper manager for your terminal. built for hyprland + swww + pywal 
 - browse konachan from your terminal with a cozy little TUI
 - filter by tags, resolution, rating
 - hit enter and your wallpaper changes + pywal recolors everything
-- the TUI itself recolors live when wal updates — no restart needed
+- the TUI itself recolors live when wal updates, no restart needed
 - save wallpapers you like, blacklist tags you don't
 - idle auto-rotation if you want your desktop to change itself
 - kitty icat preview
