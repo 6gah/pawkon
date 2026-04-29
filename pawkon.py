@@ -154,7 +154,7 @@ def set_wallpaper(path):
     tr  = CONFIG["transition"]
     dur = CONFIG["transition_duration"]
     subprocess.Popen(
-        ["swww", "img", path, "--transition-type", tr, "--transition-duration", dur],
+        ["awww", "img", path, "--transition-type", tr, "--transition-duration", dur],
         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
     )
     os.makedirs(os.path.expanduser("~/.cache/wal"), exist_ok=True)
@@ -630,7 +630,7 @@ class App:
             ("t",      "Change tags"),
             ("b",      "Blacklist a tag"),
             ("R",      "Cycle rating  s→q→e"),
-            ("T",      "Cycle swww transition"),
+            ("T",      "Cycle awww transition"),
             ("Z",      "Cycle resolution"),
             ("c",      "Cycle sort  score→date→random"),
             ("I",      "Set idle auto-rotate minutes"),
